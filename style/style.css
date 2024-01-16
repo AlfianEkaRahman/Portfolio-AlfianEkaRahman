@@ -53,6 +53,33 @@ header {
     gap: 2rem;
 }
 
+.contact-person {
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FF9800;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-person:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
 .navbar .toggle_btn {
     color: #fff;
     font-size: 1.5rem;
