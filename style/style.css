@@ -108,6 +108,27 @@ header {
     color: #fff;
 }
 
+.container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 40%;
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    height: calc(40vh - 60px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-about h1 {
+    margin-bottom: 10px;
+}
+
 .dropdown_menu {
     display: none;
     position: absolute;
@@ -169,6 +190,11 @@ section#hero {
         display: none;
     }
 
+    .container-about {
+        height: 30%;
+        width: 50%; /* Adjust the max-width for smaller screens */  
+    }
+
     .navbar .toggle_btn {
         display: block;
     }
@@ -182,5 +208,11 @@ section#hero {
     .dropdown_menu {
         left: 2rem;
         width: unset;
+    }
+
+    .container-about {
+        height: 30%;
+        width: 50%; /* Adjust the max-width for smaller screens */
+        font-size: 15px;
     }
 }
